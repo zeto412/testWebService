@@ -70,10 +70,9 @@
 
         <h3>Это простой пример использования REST c помощью Ajax</h3>
 
-        <button type="button" onclick="RestGet()">Метод GET</button>
-
-        <button type="button" onclick="RestDelete()">Метод DELETE</button>
-        <button type="button" onclick="RestPut()">Метод PUT</button>
+        <button type="button" onclick="RestGet()">GET</button>
+        <button type="button" onclick="RestDelete()">DELETE</button>
+        <button type="button" onclick="RestPut()">PUT</button>
 
     </body>
 

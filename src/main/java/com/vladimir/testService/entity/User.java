@@ -60,8 +60,8 @@ public class User {
     @Override
     public boolean equals(Object obj) {
         if(obj.getClass().equals(User.class)) {
-            System.out.println("equals as User class");
-            return (_name == ((User) obj).getName() && _surname == ((User) obj).getSurname());
+            return (_name == ((User) obj).getName() &&
+                    _surname == ((User) obj).getSurname());
         }
         else {
             return super.equals(obj);

@@ -24,11 +24,6 @@ import static org.junit.Assert.assertNotEquals;
 @WebAppConfiguration
 public class UserServiceTest {
 
-    /*@Resource
-    private EntityManagerFactory _entityManagerFactory;*/
-
-    //protected EntityManager _entityManager;
-
     @Resource
     UserService _userService;
 
@@ -36,8 +31,6 @@ public class UserServiceTest {
 
     @Before
     public void before() throws Exception {
-        //_entityManager = _entityManagerFactory.createEntityManager();
-
         List<User> users = new LinkedList<>();
 
         users.add(new User("User", "One"));
